@@ -10,14 +10,13 @@ export default function Header() {
             to="/"
           >
             <img
-              src="/images/Hudson_Logo.jpeg"
+              src="/images/Circle_Logo.png"
               alt="Home"
               className="
                 h-[70px] sm:h-[85px]
-                md:h-[85px] lg:h-[110px] xl:h-[120px]
+                md:h-[85px] lg:h-[95px] xl:h-[95px]
                 w-auto
-                border border-transparent hover:border-white
-                shadow-md hover:shadow-lg
+                border border-transparent hover:border-black rounded-full hover:shadow-xlg
                 transition-colors transition-shadow duration-1000
               "
             />
