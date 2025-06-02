@@ -27,9 +27,9 @@ export const staticSlots = [
   },
   {
     width: 815,
-    height: 185,
+    height: 250,
     style: "rounded-xl shadow-md",
-    position: "absolute bottom-[1%] right-[2%]",
+    position: "absolute top-[72%] right-[2%]",
     img: "/images/homepage_store/static2.jpeg",
   },
 ];
@@ -43,7 +43,7 @@ export const dynamicSlots = [
   },
   {
     width: 350,
-    height: 347,
+    height: 450,
     style: "rounded-xl shadow-md",
     position: "absolute bottom-[-5.5%] left-[6%]",
   },

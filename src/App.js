@@ -158,7 +158,7 @@ import './index.css';
 
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
-import Checkout from "./pages/Checkout";
+import Cart from "./pages/Cart";
 import About from "./pages/About";
 import Header from "./components/Header";
 
@@ -168,8 +168,8 @@ function App() {
       <Header />
       <Routes>
         <Route path = "/" element={<Home />} />
-        <Route path = "/shop" element={<Shop />} />
-        <Route path = "/checkout" element={<Checkout />} />
+        <Route path = "/shop/:categoryId?" element={<Shop />} />
+        <Route path = "/cart" element={<Cart />} />
         <Route path = "/about" element={<About />} />
       </Routes>
     </Router>

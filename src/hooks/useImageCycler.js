@@ -1,7 +1,7 @@
 // hooks/useImageCycler.js
 import { useEffect, useState } from "react";
 
-export default function useImageCycler(images, displayDuration = 6000) {
+export default function useImageCycler(images, displayDuration = 4000) {
   const [opacities, setOpacities] = useState(
     images.map((_, i) => (i === 0 ? 1 : 0))
   );

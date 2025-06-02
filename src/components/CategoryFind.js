@@ -20,7 +20,7 @@ export default function CategoryFind({ category }) {
           return (
             <div
               key={idx}
-              className="border border-gray-300 rounded-lg p-4 text-center bg-white shadow-sm hover:shadow-md transition"
+              className="rounded-lg p-4 text-center bg-white hover:shadow-md transition"
             >
               {item.imageURLs?.[0] && (
                 <img

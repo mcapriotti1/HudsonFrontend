@@ -16,3 +16,9 @@ export const getAllCategories = (node) => {
   }
   return categories;
 };
+
+export const getDirectChildrenOfCategory = (node) => {
+  console.log(node)
+  if (!node || !node.children) return [];
+  return node.children;
+};
