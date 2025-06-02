@@ -18,7 +18,6 @@ export const getAllCategories = (node) => {
 };
 
 export const getDirectChildrenOfCategory = (node) => {
-  console.log(node)
   if (!node || !node.children) return [];
   return node.children;
 };
